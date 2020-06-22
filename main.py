@@ -101,11 +101,6 @@ if __name__ == "__main__":
                         )
             else:
                 print(f"{to_translate.capitalize()} has no translation.")
-    else:
-        print(f"{5*'*'} Translation of python {5*'*'}")
-        translated = translate("python")
-        for n, meaning in enumerate(translated):
-            print(n+1, meaning)
 
     if args.print:
         diki.print_translations(translations_file)
