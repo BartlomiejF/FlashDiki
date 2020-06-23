@@ -34,6 +34,9 @@ def add_translation(filepath, word_eng, word_pol):
 
 
 def create_flashcards(filepath,):
+    if not (filepath.parent/"flashcards").is_dir():
+        (filepath.parent/"flashcards").mkdir()
+
     with open(f"{filepath}", "r") as f:
         raw_words = f.readlines()
 
