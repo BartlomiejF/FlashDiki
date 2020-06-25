@@ -7,6 +7,6 @@ The script translates words with www.diki.pl web translator and lists translatio
 # Installation
 
 # Usage
-List translation of a word:
+List translations of a word:
 
 ![translation only](/docs/gifs/diki_translate_base.gif)
