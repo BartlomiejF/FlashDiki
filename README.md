@@ -2,3 +2,4 @@
 CLI app that translate english words to polish, save chosen translations and create both printable and interactive flashcards.
 
 # Usage
+![translation only](/docs/gifs/diki_translate_base.gif)
