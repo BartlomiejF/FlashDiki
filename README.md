@@ -8,4 +8,5 @@ The script translates words with www.diki.pl web translator and lists translatio
 
 # Usage
 List translation of a word:
+
 ![translation only](/docs/gifs/diki_translate_base.gif)
