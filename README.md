@@ -30,10 +30,32 @@ Adds the second translation from listed translations. If -a/--add with no number
 
     python3 main.py -p
     
-![print_translations](/docs/gifs/diki_print.gif)
+![print translations](/docs/gifs/diki_print.gif)
 
 ### Remove translation from saved translations with -r/--remove <number from list>
     
     python3 main.py -r 46
     
-![remove_translation](/docs/gifs/diki_remove.gif)
+![remove translation](/docs/gifs/diki_remove.gif)
+
+### If you have your own translation and would like to save it use -o/--own <translation> argument
+    
+    python3 main.py print -o bardzo dobre tłumaczenie
+    
+![diki add own translation](/docs/gifs/diki_own_translation.gif)
+
+This automatically saves the translation.
+
+### To create flashcards use -f/--flashcards argument
+
+    python3 main.py -f
+    
+![create flashcards](/docs/gifs/diki_flashcards.gif)
+
+#### For your own convenience it is suggested to make an alias 
+
+Add to your .bashrc or .bash_aliases the following line:
+    
+    alias <your command> = "python3 path/to/the/FlashDiki/folder/main.py"
+    
+# Have fun.
