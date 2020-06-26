@@ -7,15 +7,11 @@ The script translates words with www.diki.pl web translator and lists translatio
 # Installation
 Simply download the repository files or using git with command:
 
-'''
-git clone https://github.com/BartlomiejF/FlashDiki.git
-'''
+    git clone https://github.com/BartlomiejF/FlashDiki.git
 
 Then install required packages with command:
 
-'''
-python3 -m pip install -r requirements.txt
-'''
+    python3 -m pip install -r requirements.txt
 
 # Usage
 List translations of a word:
