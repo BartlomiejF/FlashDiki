@@ -14,6 +14,15 @@ Then install required packages with command:
     python3 -m pip install -r requirements.txt
 
 # Usage
-List translations of a word:
+List translations of a word ("print" in the following case):
 
 ![translation only](/docs/gifs/diki_translate_base.gif)
+
+Save the translation with -a/--add <number-from-list>:
+    
+    python3 main.py print -a 2
+    
+Adds the second translation from listed translations. If -a/--add with no number is provided then the first translation is added.
+
+![add translation](/docs/gifs/add_translation.gif)
+    
