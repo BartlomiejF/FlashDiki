@@ -59,3 +59,5 @@ Add to your .bashrc or .bash_aliases the following line:
     alias <your command> = "python3 path/to/the/FlashDiki/folder/main.py"
     
 # Have fun.
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
