@@ -25,6 +25,8 @@ Then install required packages with command
 Adds the second translation from listed translations. If -a/--add with no number is provided then the first translation is added.
 
 ![add translation](/docs/gifs/add_translation.gif)
+
+If there is no translations.txt file in the script folder then it is created right now.
     
 ### Print all of your saved translations with -p/--print
 
@@ -51,6 +53,8 @@ This automatically saves the translation.
     python3 main.py -f
     
 ![create flashcards](/docs/gifs/diki_flashcards.gif)
+
+Flashcards are stored in a folder named flashcards.
 
 #### For your own convenience it is suggested to make an alias 
 
